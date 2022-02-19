@@ -10,7 +10,9 @@ http://tidalcycles.org/docs/configuration/MIDIOSC/osc/
 
  **DIEGO DORADO**
 
-![caption](https://www.youtube.com/watch?v=t6KZ03Wp66M)
+[![¿Como comunicar TidalCycles con Hydra via OSC?](https://img.youtube.com/vi/t6KZ03Wp66M/0.jpg)](https://www.youtube.com/watch?v=t6KZ03Wp66M "¿Como comunicar TidalCycles con Hydra via OSC?")
+
+https://www.youtube.com/watch?v=t6KZ03Wp66M
 
 https://github.com/diegodorado/tidal-hydra-tutorial
 - tadokoro https://club.tidalcycles.org/t/sending-osc-out-of-tidal-again-help/3318/9
