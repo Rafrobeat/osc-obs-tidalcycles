@@ -10,7 +10,7 @@ http://tidalcycles.org/docs/configuration/MIDIOSC/osc/
 
  **DIEGO DORADO**
 
-https://www.youtube.com/watch?v=t6KZ03Wp66M
+![caption](https://www.youtube.com/watch?v=t6KZ03Wp66M)
 
 https://github.com/diegodorado/tidal-hydra-tutorial
 - tadokoro https://club.tidalcycles.org/t/sending-osc-out-of-tidal-again-help/3318/9
