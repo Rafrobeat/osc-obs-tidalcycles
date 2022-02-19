@@ -1,0 +1,14 @@
+setcps(1)
+
+p "base"
+  -- $ sometimes brak
+  $ s "bd*4"
+  -- # escenan "intro"
+  -- # grabarv 1
+  # media 1
+
+
+once $ s "hh*2"
+  -- # escena 2
+  -- # grabarv 1
+  # media 1
