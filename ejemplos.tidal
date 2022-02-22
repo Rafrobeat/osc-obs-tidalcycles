@@ -1,14 +1,22 @@
+-- Opciones:
+-- # escena 2 --> Valores enteros para el numero de escena.
+-- # escenan "intro" --> Valor string para escena por nombre.
+-- # grabarv 1 --> Valor entero de 1 para inciar grabación, y de 0 para detener.
+-- # stream 1 --> Valor entero de 1 para inciar streaming, y de 0 para detener.
+-- # media "Logo" --> Valores string con el nombre del medio en OBS. En este caso el medio se llama mediaLogo en OBS. 
+
+
 setcps(1)
 
 p "base"
   -- $ sometimes brak
   $ s "bd*4"
-  -- # escenan "intro"
-  -- # grabarv 1
-  # media 1
+  -- # media 1
 
 
 once $ s "hh*2"
   -- # escena 2
+  -- # escenan "intro"
   -- # grabarv 1
-  # media 1
+  -- # stream 1
+  -- # media 1

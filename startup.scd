@@ -21,27 +21,23 @@ OSCdef(\tidalplay, {
 	if ( (msg.matchItem('escena') ),
 		{
 		e = msg.indexOf(\escena) + 1;
-		//e.postln;
 		a.sendMsg("/scene", msg[e]); }
 	);
 	if ( (msg.matchItem('grabarv') ),
 		{
 		v = msg.indexOf(\grabarv) + 1;
-		//v.postln;
 		a.sendMsg("/setRecording", msg[v]); }
 	);
 	if ( (msg.matchItem('stream') ),
 		{
 		s = msg.indexOf(\stream) + 1;
-		//v.postln;
 		a.sendMsg("/setStreaming", msg[s]); }
 	);
 	// OBS media
 	if ( (msg.matchItem('media') ),
 		{
 		f = msg.indexOf(\media) + 1;
-		//f.postln;
-		a.sendMsg("/media/mediaRestart"); }
+		a.sendMsg("/media" ++ msg[f] ++ "/mediaRestart"); }
 	);
  }, '/dirt/play', n);
 );

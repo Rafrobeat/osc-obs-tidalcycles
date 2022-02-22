@@ -1,5 +1,11 @@
 # OSC / OBS desde TidalCycles
 
+** Esta implementación surge de la necesidad de manipular OBS desde las mismas líneas de tidalcycles. Es compatible con sistemas operativos linux, Windows (asumo que en mac también). (Probado en linux y Windows.)
+
+** Compatible también con flok, siempre y cuando en la máquina de la transmisión o grabación esten las lineas de código en Supercollider.
+
+** OBS puede estar en otra máquina, y desde la maquina cliente configuras con el plugin OBS / OSC la conexión a la maquina que  transmitirá o grabará.
+
 OSC: Open Sound Control
 
 Open Sound Control es un protocolo abierto que define un formato de mensajes que facilita la comunicación entre dispositivos capacitados para recibir o enviar datos por medio de la red, como ordenadores, sintetizadores de sonido y otros controladores multimedia.
