@@ -30,6 +30,12 @@ OSCdef(\tidalplay, {
 		//v.postln;
 		a.sendMsg("/setRecording", msg[v]); }
 	);
+	if ( (msg.matchItem('stream') ),
+		{
+		s = msg.indexOf(\stream) + 1;
+		//v.postln;
+		a.sendMsg("/setStreaming", msg[s]); }
+	);
 	// OBS media
 	if ( (msg.matchItem('media') ),
 		{
