@@ -29,7 +29,7 @@ Generalidades:
 
 - Se debe configurar BootTidal.hs con con las funciones para enviar los mensajes OSC hacia supercollider.
 
-- También se debe configurar el archivo startup.scd de Supercollider para que reciva y envie los mensajes de TidalCycles.
+- También se debe configurar el archivo startup.scd de Supercollider para que reciba y envíe los mensajes de TidalCycles.
 
 - La comunicación entre TidalCycles y OBS se hace por medio de un plugins de OSC para OBS, quien a su vez trabaja con otro plugins de OBS para conexiones websocket. A continuación los enlaces de los plugins para OBS.
 
